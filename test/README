@@ -1,0 +1,10 @@
+PlatformIO tests will live here.
+
+Recommended first tests after modularization:
+
+- Version comparison for OTA.
+- Config validation.
+- STOP latch/retry state machine.
+- UPS code classification for the FORZA FX-1500.
+
+Hardware-in-the-loop checks should stay documented separately from unit tests.

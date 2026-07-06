@@ -1,0 +1,7 @@
+Project-local libraries live here.
+
+Current library:
+
+- `EspUsbHostFork`: local fork of TANAKA Masayuki's EspUsbHost library, used for USB host communication with the FORZA FX-1500 UPS.
+
+Keep this fork versioned while it contains project-specific behavior. If it is replaced by an upstream dependency later, document the exact version and migration in `README.md`.

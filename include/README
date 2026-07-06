@@ -1,0 +1,14 @@
+Project headers live here.
+
+Important files:
+
+- `secrets.example.h`: versionable template with placeholder values.
+- `secrets.h`: local real credentials and operator settings. This file is ignored by Git.
+
+When preparing a new workstation, copy:
+
+```sh
+cp include/secrets.example.h include/secrets.h
+```
+
+Then edit `include/secrets.h` locally.
